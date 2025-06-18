@@ -25,3 +25,9 @@ print(x)
 print(y)
 print(z)
 print(t)
+
+a, b, c = 1, 2, "runoob"
+
+print(a)
+print(b)
+print(c)
