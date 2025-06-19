@@ -57,12 +57,9 @@ mre.discard("yyy")
 print(mre)
 
 
-
 thisset = set(("Google", "Runoob", "Taobao", "Facebook"))
 x = thisset.pop()
-
 print(thisset)
-
 print(x)
 
 
