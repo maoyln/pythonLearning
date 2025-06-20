@@ -15,6 +15,7 @@ newdict = {key:len(key) for key in listdemo}
 print(newdict)
 # {'Google': 6, 'Runoob': 6, 'Taobao': 6}
 
+
 print('---------黄金分割线-----------')
 
 
