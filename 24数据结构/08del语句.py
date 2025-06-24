@@ -39,17 +39,21 @@ print('---------黄金分割线-----------')
 # 以下演示了两个集合的操作
 a = set('abracadabra') # {'c', 'r', 'd', 'b', 'a'}
 b = set('alacazam') # {'a', 'm', 'l', 'c', 'z'}
-print(a) # a 中唯一的字母
-print(b)
+print('a->',a) # a 中唯一的字母
+print('b->',b)
 
 c = a - b # 在 a 中的字母，但不在 b 中
-print(c) # {'d', 'r', 'b'}
+print('c->',c) # {'d', 'r', 'b'}
 
 d = a | b # # 在 a 或 b 中的字母
-print(d) # {'d', 'a', 'l', 'c', 'm', 'r', 'b', 'z'}
+print('d->',d) # {'d', 'a', 'l', 'c', 'm', 'r', 'b', 'z'}
 
 f = a & b # 在 a 和 b 中都有的字母
-print(f) # {'a', 'c'}
+print('f->',f) # {'a', 'c'}
 
 g = a ^ b # 在 a 或 b 中的字母，但不同时在 a 和 b 中
-print(g) # {'b', 'd', 'z', 'r', 'l', 'm'}
+print('g->', g) # {'b', 'd', 'z', 'r', 'l', 'm'}
+
+# 集合也支持推导式：
+h = {x for x in 'abracadabra' if x not in 'abc'}
+print('h->',h) # {'r', 'd'}
