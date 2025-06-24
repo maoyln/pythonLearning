@@ -33,6 +33,7 @@ for q, a in zip(questions, answers):
 # What is your quest?  It is the holy grail.
 # What is your favorite color?  It is blue.
 
+
 print('---------黄金分割线-----------')
 
 
@@ -40,7 +41,6 @@ print('---------黄金分割线-----------')
 basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
 for f in sorted(set(basket)):
     print(f)
-
 # apple
 # banana
 # orange
