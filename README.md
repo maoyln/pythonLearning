@@ -19,3 +19,7 @@
 C:\Program Files\Python39\          # Python 主目录
 C:\Program Files\Python39\Scripts\  # Pip 和脚本目录
 ```
+
+## python学习
+
+- https://www.runoob.com/python3/python3-tutorial.html
